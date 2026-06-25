@@ -73,9 +73,9 @@ When you have an object selected in the viewport you can move, rotate and scale 
 
 [<img alt="video showing how to connect script to select event" src="images/video_3_move.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=445a3070-a1d8-415c-9d01-b47400aa60ca)
 
-## 4. create and arrange primitives
+## 4. Create and arrange primitives
 
-Cubes, Cylinders and Spheres are all primative shapes, you can create them from the top menu:
+Cubes, Cylinders and Spheres are all primitive shapes, you can create them from the top menu:
 
 Add > Mesh
 
@@ -122,7 +122,7 @@ With these selected you can move, scale and rotate them the same way as whole ob
 
 [<img alt="video showing how to connect script to select event" src="images/video_7_vertexes.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a81b9d35-2ad5-48ac-ac98-b47400bb54b8)
 
-## 8. triangle count and deleting
+## 8. Triangle count and deleting
 
 For the assignment you will need to stick to a triangle count.Each four sided face on your object (a quad) is made up of two triangles.
 
@@ -155,11 +155,19 @@ In future worksheets we will delve deeper into adding images and texture paintin
 
 ## 8. Challenge - make a simple character.
 
-Using the skills you have learnt in this worksheet to make a better rocket. 
+Using the skills you have learnt in this worksheet to make a low poly space station. It can be real or fictional.
 
-Rather than using many primative, try to use less to achieve the same result, going further to add more detail.
 
-Try to do it yourself before looking at my solution.
+We will cover more advance modeling tools next week, but here are some tips if you want to add more detail to your primitive shapes
+
+> [!TIP]
+> Select the end face of a cylinder and select **poke face** from the face menu
+> ![](images/poke_faces.jpg)
+
+
+> [!TIP]
+> Make sure you are in the correct shading mode.
+> ![](images/loop_cut.jpg)
 
 ## Extra resources
 
