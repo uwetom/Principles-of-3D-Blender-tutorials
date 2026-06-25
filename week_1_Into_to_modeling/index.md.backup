@@ -163,6 +163,8 @@ Add colours to your space station.
 
 ![](images/Death_star1.png)
 
+Save regularly!
+
 We will cover more advance modeling tools in future weeks, but here are some tips if you want to add more detail to your primitive shapes
 
 > [!TIP]

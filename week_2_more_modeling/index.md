@@ -2,11 +2,108 @@
 
 In this worksheet we will cover more advance modeling techniques and tools.
 
-## Box modeling
+## 1. Box modeling
 
-This is a common modeling tequnique, you start with a primitive shape which most closely resembles your object and add gradually add more detail.
+This is a common modeling technique, you start with a primitive shape which most closely resembles your object and add gradually add more detail.
 
-##
+## 2. Extrude, Edge loop, insert
+
+In order to box model we may need to add more edges to our primitive meshes.
+
+We can do this in edit mode using the **loop cut**, **Extrude** and **insert** tools
+
+![](images/extrude_loop_insert.jpg)
+
+[<img alt="video showing how to connect script to select event" src="images/video_9_materials.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=067bebdc-2b0d-4f6f-9fc1-b47400c81f12)
+
+## 3. Bevel and knife
+
+The bevel and knife tools are also useful to add more detail, be careful you don't add too many segments when bevelling.
+
+![](images/bevelandknife.jpg)
+
+[<img alt="video showing how to connect script to select event" src="images/video_9_materials.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=067bebdc-2b0d-4f6f-9fc1-b47400c81f12)
+
+## 4. Edge slide, merge
+
+If you want to move edges along your shape, you can double tap **g** to edge slide your vertexes and edges.
+
+turn on the merge option to merge vertexes that are on top of eachother.
+
+![](images/merge.jpg)
+
+[<img alt="video showing how to connect script to select event" src="images/video_9_materials.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=067bebdc-2b0d-4f6f-9fc1-b47400c81f12)
+
+## 5. Modifiers - mirror - array
+
+If our object is symmetrical or repeated the mirror and array tools can speed up our workflow
+
+### Mirror modifier
+
+Mirroring is best done if your object is direcly on the origin (the center of the scene).
+
+Add a loop cut in the middle where you want to mirror
+
+Delete half the object
+
+Apply the mirror modifier in **object** mode (not edit mode)
+
+Select the correct axis.
+
+### Array
+
+Arrays are useful if you want to repeat your object in a pattern.
+
+* Select the object
+* Choose the **Array** modifier
+* Change the settings to what you want
+
+
+[<img alt="video showing how to connect script to select event" src="images/video_9_materials.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=067bebdc-2b0d-4f6f-9fc1-b47400c81f12)
+
+
+## 6. Add image referene
+
+When modeling, its very helpful to have an image reference.
+
+You can bring them into Blender by just dragging them into the scene, and then reseting the rotation and position as you need.
+
+[<img alt="video showing how to connect script to select event" src="images/video_9_materials.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=067bebdc-2b0d-4f6f-9fc1-b47400c81f12)
+
+## Challenge 1 - Model a low poly Jeep
+
+Use the skills you have learn to model a Jeep, just create the basic shape, including windows, and wheels.
+
+
+--------add image of jeep and screen shot of finished one.
+
+
+Start with a cube and add a loop cut to setup mirroring
+
+Add another loop cut to extrude out the bonnet.
+
+Adjust the edges to create the slope on the window screen
+
+Use insert and extude the windows.
+
+use the knife tool cut and then extrude the wheel arches.
+
+Lastly, make the wheels
+
+Try to do this yourself before looking at my solution video
+
+[<img alt="video showing how to connect script to select event" src="images/video_9_materials.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=067bebdc-2b0d-4f6f-9fc1-b47400c81f12)
+
+
+## size scale
+
+
+## hard edges, snapping bevel
+
+## randomise
+
+## 
+
 
 We will make a low poly jeep.
 
@@ -17,26 +114,16 @@ create primitives with set faces and size
 - tools
 	- extruding
 	- edge loops
-	- delete edges
 	- bevel
 	- randomise
 	- edge slide
+	- merge
 	
 maintain quads.
 	
 - display
 	+ hard soft edges
 	+ scale/size
-	- wireframe
-	- overlays - polycount
 	- snapping
 	- centering
 	- cursor
-	
-- modifiers
-	+ mirror
-	+ 
-
-- image reference
-
-
