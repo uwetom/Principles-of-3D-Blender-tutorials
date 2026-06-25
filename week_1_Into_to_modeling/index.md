@@ -3,27 +3,30 @@
 
 ## Introduction
 
-My name is Tom Garne and I will walk you through 
+My name is Tom Garne and I will walk you through the basics to get you started modeling in Blender.
 
------- Video 0 - intro?
+These worksheets will be a combination of text and videos, if you get stuck please ask for help. We all love making 3D models and are happy to share our knowledge.
 
+You can also ask your neighbour for help, they may have faced the same issue as you.
 
-## Install
+Learning new software takes practice so please do the challenges in these worksheets to improve your skills.
+
+## Install Blender
 
 ### On Your machine
-On you own machine, you can download and install Blender for free for Mac, PC and Linux from here:
+You can download and install Blender for free for Mac, PC and Linux from here:
 
 [https://www.blender.org/download/](https://www.blender.org/download/)
 
 We will be using version 5.1, but as long as its version 5 you will be able to follow along with these worksheets.
 
-### On Campus
+### On Campus (2q24, 2q25)
 
 You can find Blender on UWE's software launcher "Apps Anywere"
 
-To open [https://appsanywhere.uwe.ac.uk](https://appsanywhere.uwe.ac.uk)]
+* Open [https://appsanywhere.uwe.ac.uk](https://appsanywhere.uwe.ac.uk)]
 
-Search for **Blender** and press launch
+* Search for **Blender** and press launch
 
 ![Launch blender in Apps anywhere](images/blender_apps.jpg)
 
@@ -35,7 +38,7 @@ We strongly recommend you get a mouse for 3D work.
 
 You can buy one from the project room (2q20)
 
-You can use a trackpad but you will find it slower and more frustrating.
+You can use a laptop trackpad but you will find it slower and more frustrating.
 
 ## 1. Interface
 
@@ -47,50 +50,28 @@ Most 3D software shares common elements called **Areas** in Blender, they can be
 - **Outliner** -  A list of all the object in your scene (Meshes, lights, cameras etc..)
 - **Properties** - view and modify information about the selected object and the whole scene
 
--------video 1 quick Video tour
+[<img alt="video showing how to connect script to select event" src="images/video_1_interface.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=80a2040a-d8e3-45c3-a3e8-b474009ba73d)
 
-
-- tour
-	+ 
-	1. 3d viewport
-		1. - z is up
-	2. outliner
-		camera, cube, light, collection
-	3. properties
-		1. render
-		2. object
-		3. modifiers
-		4. materials
-	4. workspaces
-	5. move and resize and delete 
 
 ## 2. Navigation
 
 In the 3D Viewport you can move your editor camera:
 
-Rotate - Hold middle mouse button
-Pan - Shift + Hold middle mouse button
-zoom - mouse wheel
+* **Rotate** - Hold middle mouse button
+* **Pan** - Shift + Hold middle mouse button
+* **zoom** - mouse wheel
 
-------- video 2 navigation
-- basic navigation
-- laptop options.
+[<img alt="video showing how to connect script to select event" src="images/video_2_navigation.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=eeedacf2-7294-4f4f-9f07-b47400a1cde4)
 
-## 3. move scale rotate
+## 3. Move scale rotate
 
 When you have an object selected in the viewport you can move, rotate and scale it. The hot keys are:
 
-**g** - move
-**r** - rotate
-**s** - scale
+* **g** - move
+* **r** - rotate
+* **s** - scale
 
---- video 3 move, scale, rotate
-
-- select object
-- press buttons
-- use hot keys
-- axis lock.
-- shift
+[<img alt="video showing how to connect script to select event" src="images/video_3_move.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=445a3070-a1d8-415c-9d01-b47400aa60ca)
 
 ## 4. create and arrange primitives
 
@@ -98,91 +79,87 @@ Cubes, Cylinders and Spheres are all primative shapes, you can create them from 
 
 Add > Mesh
 
-![](images/add-mesh.jpg)
+![primative mesh menu in Blender](images/add-mesh.jpg)
 
----- video 4 - add mesh
+[<img alt="video showing how to connect script to select event" src="images/video_4_primatives.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=158b53eb-c292-485d-a469-b47400b092a6)
 
-- add mesh with button
-- add with shortcut
-- move them around
-- know sizzes
+Make sure you have saved your project.
 
-video 4.5 - saving.
-
-------SAVE
-
-## 5. Challenge 1 - make a Rocket 
+## 5. Challenge - Make a Rocket 
 
 Just using primitive meshes, make a simple rocket
 
 ![Rocket model in Blender](images/rocket.jpg)
+
+Try to do this yourself before looking at my solution video bellow:
+
+[<img alt="video showing how to connect script to select event" src="images/video_5_solution_1.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=322889eb-eb28-4fdc-8c5c-b47400b315fe)
 
 
 ## 6. Collections and naming
 
 As you add objects to your scene it is important to keep things organised, you can do this by renaming the meshes, and creating collections
 
-----------video 6 - collections
+[<img alt="video showing how to connect script to select event" src="images/video_6_collections.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=3ce44ef4-0611-43a7-b61c-b47400b73462)
 
-## 7. vertexes, faces and edges
+## 7. Vertexes, faces and edges
 
-Primative meshes are made up of vertexes, edges and faces.
+Primitive meshes are made up of vertexes, edges and faces.
 
 In Blender, you can switch between **Object** mode and **edit** mode using the **tab** key
 
-In edit mode you can select and move the vertexes, faces and edges
+In edit mode you can select and move the vertexes, faces and edges by selecting them in the top menu:
 
-![](images/vertex_edge_face.jpg)
+![vertex, edge and face buttons in blender](images/vertex_edge_face.jpg)
 
-You can also select these using the number row
+You can also select these using the number row on you keyboard
 
-1 - Vertex
-2 - Edge
-3 - Face
-
-poly count
+* **1** - Vertex
+* **2** - Edge
+* **3** - Face
 
 With these selected you can move, scale and rotate them the same way as whole objects.
 
----- video 5 show vertext selection
+[<img alt="video showing how to connect script to select event" src="images/video_7_vertexes.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a81b9d35-2ad5-48ac-ac98-b47400bb54b8)
 
--- edit mode
-- select vertex,face,edge with buttons and hotkeys
-- move, scale rotat3
-- select multiple ones - double click
+## 8. triangle count and deleting
 
+For the assignment you will need to stick to a triangle count.Each four sided face on your object (a quad) is made up of two triangles.
 
-WARNING - Dont add new mesh primatives when in edit mode.
+To find out how many triangles in your whole model turn on **Statistics** in the **Overlays** menu.
+
+![](images/statistics.jpg)
+
+When deleting edges, select them, press the **delete** key on your keyboard and choose **disolve edges**
+
+[<img alt="video showing how to connect script to select event" src="images/video_8_poly_count.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=0e590226-9aaa-4f09-bb8b-b47400c1b3fa)
+
+> [!WARNING]
+> Don't add new mesh primitives when in edit mode.
 
 ## 7. Materials
 
-We can add material to whole objects, or individual faces.
+We can add material to whole objects, or individual faces using by adding new materials in the **material property** area.
+
+![](images/material_properties.jpg)
 
 In this video I will show you how to add simple colours to your objects and faces
 
+[<img alt="video showing how to connect script to select event" src="images/video_9_materials.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=067bebdc-2b0d-4f6f-9fc1-b47400c81f12)
 
-
---- video 6 - add colours to shapes
-
-- object mode
-- add new material and rename
-- change colour
-- edit mode
-- select face, add new material slot and material
-- change colour.
-
-
-reminder - make sure you are in the correct shading mode
+> [!TIP]
+> Make sure you are in the correct shading mode.
+> ![](images/render_mode.jpg)
 
 In future worksheets we will delve deeper into adding images and texture painting.
 
 ## 8. Challenge - make a simple character.
 
-Using the skills you have learnt in this worksheet create a simple vehicle. Add a body, wheels and whatever else you would like.
+Using the skills you have learnt in this worksheet to make a better rocket. 
 
-## 9. Challenge solution
+Rather than using many primative, try to use less to achieve the same result, going further to add more detail.
 
---- video 7, challenge solution
+Try to do it yourself before looking at my solution.
 
 ## Extra resources
 
