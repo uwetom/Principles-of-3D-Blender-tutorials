@@ -153,12 +153,17 @@ In this video I will show you how to add simple colours to your objects and face
 
 In future worksheets we will delve deeper into adding images and texture painting.
 
-## 8. Challenge - make a simple character.
+## 8. Challenge - make a space station.
 
 Using the skills you have learnt in this worksheet to make a low poly space station. It can be real or fictional.
 
+Think about which primitive most closely resebles your object.
 
-We will cover more advance modeling tools next week, but here are some tips if you want to add more detail to your primitive shapes
+Add colours to your space station.
+
+![](images/Death_star1.png)
+
+We will cover more advance modeling tools in future weeks, but here are some tips if you want to add more detail to your primitive shapes
 
 > [!TIP]
 > Select the end face of a cylinder and select **poke face** from the face menu
