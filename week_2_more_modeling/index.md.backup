@@ -24,17 +24,7 @@ The bevel and knife tools are also useful to add more detail, be careful you don
 
 [<img alt="video showing how to connect script to select event" src="images/video_2_bevel.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=91ef1d4a-4c73-4890-b58d-b47400fef358)
 
-## 4. Edge slide, merge
-
-If you want to move edges along your shape, you can double tap **g** to edge slide your vertexes and edges.
-
-turn on the merge option to merge vertexes that are on top of eachother.
-
-![](images/merge.jpg)
-
-[<img alt="video showing how to connect script to select event" src="images/video_3_slide.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=504d2214-ac0b-43a0-bd76-b4740102871d)
-
-## 5. Modifiers - mirror - array
+## 4. Modifiers - mirror - array
 
 If our object is symmetrical or repeated the mirror and array tools can speed up our workflow
 
@@ -64,7 +54,7 @@ Arrays are useful if you want to repeat your object in a pattern.
 
 [<img alt="video showing how to connect script to select event" src="images/video_4_mirror.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4dcfc841-7e67-42f7-9a65-b4740105ffb0)
 
-## 6. Add image reference
+## 5. Add image reference
 
 When modeling, its very helpful to have an image reference.
 
@@ -72,62 +62,49 @@ You can bring them into Blender by just dragging them into the scene, and then r
 
 [<img alt="video showing how to connect script to select event" src="images/video_5_reference.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ea48dea2-c8b5-4910-b45d-b474010a9358)
 
-## Challenge 1 - Model a low poly Jeep
+## 6. Challenge 1 - Model a low poly Jeep
 
 Use the skills you have learn to model a Jeep, just create the basic shape, including windows, and wheels.
 
+![jeep reference image](images/jeep.png)
 
---------add image of jeep and screen shot of finished one.
+![finished jeep](images/finished_jeep.jpg)
 
+Here is my interpretation, you do not have do the same thing as me, but try to use all the skills you have learnt.
 
-Start with a cube and add a loop cut to setup mirroring
+1. Start with a cube and add a loop cut to setup mirroring
 
-Add another loop cut to extrude out the bonnet.
+2. Add another loop cut to extrude out the bonnet.
 
-Adjust the edges to create the slope on the window screen
+3. Adjust the edges to create the slope on the window screen
 
-Use insert and extude the windows.
+4. Add an extra loop cut  to create 2 faces for the side windows
 
-use the knife tool cut and then extrude the wheel arches.
+5. Use insert to create the window frames and extrude the windows back into the body
 
-add a new cube, and use the array modifier to make the front grill
+6. Use the knife tool cut and then extrude the wheel arches.
 
-Lastly, make the wheels
+7. Lastly, make the wheels as new objects from cylinders.
 
 Try to do this yourself before looking at my solution video
 
-[<img alt="video showing how to connect script to select event" src="images/video_9_materials.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=067bebdc-2b0d-4f6f-9fc1-b47400c81f12)
+[<img alt="video showing how to connect script to select event" src="images/video_6_challenge_1.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=89ddb0eb-f7ee-4ffe-b071-b47500b2cb1a)
 
 
-## size scale
+## 7. Edge slide, merge
+
+If you want to move edges along your shape, you can double tap **g** to edge slide your vertexes and edges.
+
+turn on the merge option to merge vertexes that are on top of eachother.
+
+![](images/merge.jpg)
+
+[<img alt="video showing how to connect script to select event" src="images/video_3_slide.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=504d2214-ac0b-43a0-bd76-b4740102871d)
+
+## 8. Other useful tools
+
+### join, fill
+
+### 
 
 
-## hard edges, snapping bevel
-
-## randomise
-
-## 
-
-
-We will make a low poly jeep.
-
-----picture of jeep
-
-create primitives with set faces and size
-
-- tools
-	- extruding
-	- edge loops
-	- bevel
-	- randomise
-	- edge slide
-	- merge
-	
-maintain quads.
-	
-- display
-	+ hard soft edges
-	+ scale/size
-	- snapping
-	- centering
-	- cursor
