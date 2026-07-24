@@ -1,20 +1,36 @@
 # Organic objects and texture painting
 
-
+In this worksheet we will look at modeling more organic objects from an image reference, and applying more complex textures.
 
 
 ## 1. Soft edges
 
+By default, all edges in Blender are sharp, this makes curved shapes look very faceted.
 
+![](images/facets.jpg)
 
+One way to make them look more smooth is by adding more edges
 
-![](images/merge.jpg)
+![](images/more_detail.jpg)
 
-[<img alt="video showing how to connect script to select event" src="images/video_3_slide.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=504d2214-ac0b-43a0-bd76-b4740102871d)
+But this can increase the polygon count considerably.
 
-## 2. randomise
+A better solution is to mark the edges as smooth or sharp
+
+- Hold down **Right click**
+- Choose **Shade Auto smooth**
+
+You can also smooth or sharpen individual edges.
+
+[<img alt="video showing how to connect script to select event" src="images/video_1_sofen.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a2d0ea64-c16e-4581-aef9-b47500ff4141)
+
+## 2. Randomise
 
 Organic objects are never perfect, you can make objects look more real by randomising the vertexes a little.
+
+
+
+
 
 ## 3. Merge and edge slide
 
@@ -43,11 +59,20 @@ Import the imge reference and use mirroring if you find it helpful.
 Try to do this yourself before looking at my solution.
 
 
-
 ## 5. Basic uv mapping - automatic
 
+- freeze scale
+- automatic unwrap
 
-## 5. texture painting
+## 5. Texture painting
 
-## 6. challenge - paint your banana
+- Create new texture
+- paint 
+- save
+
+## 6. Challenge - paint your banana
+
+Find a few image references for a banana
+
+try to recreate it in a 
 
