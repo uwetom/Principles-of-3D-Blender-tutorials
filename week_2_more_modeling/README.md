@@ -104,7 +104,23 @@ Press **J** to create and edge between vertexes
 [<img alt="video showing how to connect script to select event" src="images/video_3_slide.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=504d2214-ac0b-43a0-bd76-b4740102871d)
 
 
+## 10. Extra Challenge
 
+If you have quickly made your way thought this worksheet, as an extra challenge
+Try to model a simple low poly vehicle using the techniques you have learnt
+
+![Image of a jeep](images/jeep.png)
+
+Use the following techniques
+
+- Mirroring
+- Insert
+- Extrude
+- Knife
+
+Here is my solution, yours will be different.
+
+![](images/finished_jeep.jpg)
 
 
 
