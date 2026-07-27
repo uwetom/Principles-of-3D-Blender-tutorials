@@ -190,7 +190,7 @@ You can now close this window, move the camera and adjust the scene and render o
 
 Here is a video showing you how to render out your images
 
-[<img alt="video showig how to render your images" src="images/video_5_render.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=82b97ec1-79ee-44af-ae85-b49400a6be4e)
+[<img alt="video showing how to render your images" src="images/video_5_render.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=82b97ec1-79ee-44af-ae85-b49400a6be4e)
 
 ## Challenge
 
