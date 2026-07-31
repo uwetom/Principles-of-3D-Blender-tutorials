@@ -88,7 +88,15 @@ If you get stuck, this video show you how to use the node wrangler
 
 [<img alt="video showing how to use the node wrangler to apply PBS materials" src="images/video_node_wrangler.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=83d906ee-555a-42ef-8ebd-b49801127522)
 
-## 5. Extra - Manual UV Unwrapping
+
+## 5. Challenge - Finish the Cactus
+
+See if you can add textures to the soil and pot.
+
+- Download pbr textures or just a base colour image
+- Apply it to the pot and soil objects
+
+## 6. Extra - Manual UV Unwrapping
 
 Using smart unwrap normally gives you very good results, but if you want to go further and have more control over how your model unwraps this section will show you how to manually unwrap your model.
 
@@ -96,7 +104,7 @@ This video show you how to use manually unwrap your object
 
 [<img alt="video showing how to manually unwrap your object" src="images/video_manual_unwrap.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a3eacb06-32dd-4273-bbd0-b49801150dad)
 
-## 6. Extras
+## 7. Resources
 
 ### free textures
 You can download creative commons licenced prb textures from these sites without needing to login or create an account.
