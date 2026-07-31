@@ -84,14 +84,19 @@ We can now try to model a low poly Banana
 
 ![end face of cylinder selected](images/end_face_selected.jpg)
 
-
 - Press **e** to extrude and move the mouse to drag out the next section of the banana
+
+![extruded banana](images/extrude_end.jpg)
 
 - With the new faces still selected move (hotkey g), scale (s) and rotate (r) them into position
 
 - keep doing this until you have mode the whole fruit.
 
+![extruded out fruit](images/extruded_fruit.jpg)
+
 - lastly, you can poke the end face by going into face mode (3), selecting the end face, hold down the right mouse button and selecting poke
+
+![poke menu](images/poke_face.jpg)
 
 This video shows you how do to all this if you get stuck:
 
