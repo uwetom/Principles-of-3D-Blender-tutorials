@@ -3,9 +3,9 @@
 
 ## Introduction
 
-My name is Tom Garne and I will walk you through the basics to get you started modeling in Blender.
+These worksheets will walk you through the basics to get you started modeling in Blender.
 
-These worksheets will be a combination of text and videos, if you get stuck please ask for help. We all love making 3D models and are happy to share our knowledge.
+They are  combination of text and videos, if you get stuck please ask for help. We all love making 3D content and are happy to share our knowledge.
 
 You can also ask your neighbour for help, they may have faced the same issue as you.
 
@@ -24,7 +24,7 @@ We will be using version 5.1, but as long as its version 5 you will be able to f
 
 You can find Blender on UWE's software launcher "Apps Anywere"
 
-* Open [https://appsanywhere.uwe.ac.uk](https://appsanywhere.uwe.ac.uk)]
+* Open [https://appsanywhere.uwe.ac.uk](https://appsanywhere.uwe.ac.uk)
 
 * Search for **Blender** and press launch
 
@@ -50,18 +50,28 @@ Most 3D software shares common elements called **Areas** in Blender, they can be
 - **Outliner** -  A list of all the object in your scene (Meshes, lights, cameras etc..)
 - **Properties** - view and modify information about the selected object and the whole scene
 
-[<img alt="video showing how to connect script to select event" src="images/video_1_interface.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=80a2040a-d8e3-45c3-a3e8-b474009ba73d)
+### Saving
 
+Remember to save you work often, it can be very frustrating to loose work in a crash.
+
+- Save this new project by going to **file > save as**
+
+
+This video walks you through the interface in more details:
+[<img alt="video showing teh basic blender interface" src="images/video_1_interface.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=80a2040a-d8e3-45c3-a3e8-b474009ba73d)
 
 ## 2. Navigation
 
-In the 3D Viewport you can move your editor camera:
+In the 3D viewport you can move your editor camera:
 
 * **Rotate** - Hold middle mouse button
 * **Pan** - Shift + Hold middle mouse button
 * **zoom** - mouse wheel
 
-[<img alt="video showing how to connect script to select event" src="images/video_2_navigation.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=eeedacf2-7294-4f4f-9f07-b47400a1cde4)
+
+This video shows you how to use the above commands, and also how to emulate these if you don't have a mouse:
+
+[<img alt="video showing how to move the camera in Blender" src="images/video_2_navigation.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=eeedacf2-7294-4f4f-9f07-b47400a1cde4)
 
 ## 3. Move scale rotate
 
@@ -71,7 +81,13 @@ When you have an object selected in the viewport you can move, rotate and scale 
 * **r** - rotate
 * **s** - scale
 
-[<img alt="video showing how to connect script to select event" src="images/video_3_move.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=445a3070-a1d8-415c-9d01-b47400aa60ca)
+or you can use the button at the left of the screen
+
+![move scale and rotate button in Blender](images/move_scale_rotate.jpg)
+
+This video shows you how to use these tools:
+
+[<img alt="video showing how to move, scale and rotate objects in Blender" src="images/video_3_move.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=445a3070-a1d8-415c-9d01-b47400aa60ca)
 
 ## 4. Create and arrange primitives
 
@@ -81,7 +97,11 @@ Add > Mesh
 
 ![primative mesh menu in Blender](images/add-mesh.jpg)
 
-[<img alt="video showing how to connect script to select event" src="images/video_4_primatives.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=158b53eb-c292-485d-a469-b47400b092a6)
+As soon as you have made a new shape an option box appears at the bottom right of the screen, this gives you the opportunity to change the properties of the object.
+
+![Blender primative options](images/primative_options.jpg)
+
+[<img alt="video showing how to create and manipulate primatives in Blender" src="images/video_4_primatives.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=158b53eb-c292-485d-a469-b47400b092a6)
 
 Make sure you have saved your project.
 
@@ -93,14 +113,28 @@ Just using primitive meshes, make a simple rocket
 
 Try to do this yourself before looking at my solution video bellow:
 
-[<img alt="video showing how to connect script to select event" src="images/video_5_solution_1.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=322889eb-eb28-4fdc-8c5c-b47400b315fe)
+[<img alt="video showing how to make a rocket in Blender" src="images/video_5_solution_1.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=322889eb-eb28-4fdc-8c5c-b47400b315fe)
 
 
 ## 6. Collections and naming
 
-As you add objects to your scene it is important to keep things organised, you can do this by renaming the meshes, and creating collections
+As you add objects to your scene it is important to keep things organised, you can do this by renaming the meshes, and creating collections.
 
-[<img alt="video showing how to connect script to select event" src="images/video_6_collections.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=3ce44ef4-0611-43a7-b61c-b47400b73462)
+
+You can rename objects in the outliner by double clicking on them
+
+![renaming object in outliner](images/rename.jpg)
+
+You can create new collections to group your objects
+
+![create new collection in Blender](images/new_collection.jpg)
+
+Click and drag objects to add them to move them between collections.
+
+
+For a video walkthough of this, watch this video:
+
+[<img alt="video showing how to create collections in Blender" src="images/video_6_collections.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=3ce44ef4-0611-43a7-b61c-b47400b73462)
 
 ## 7. Vertexes, faces and edges
 
@@ -120,36 +154,43 @@ You can also select these using the number row on you keyboard
 
 With these selected you can move, scale and rotate them the same way as whole objects.
 
-[<img alt="video showing how to connect script to select event" src="images/video_7_vertexes.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a81b9d35-2ad5-48ac-ac98-b47400bb54b8)
+Double click edges or faces to select whole loops.
+
+This video show this in more detail:
+[<img alt="video showing how to manipulate vertexes, edges and facesin Blender" src="images/video_7_vertexes.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a81b9d35-2ad5-48ac-ac98-b47400bb54b8)
 
 ## 8. Triangle count and deleting
 
-For the assignment you will need to stick to a triangle count.Each four sided face on your object (a quad) is made up of two triangles.
+For the assignment you will need to stick to a triangle count. Each four sided face on your object (a quad) is made up of two triangles.
 
 To find out how many triangles in your whole model turn on **Statistics** in the **Overlays** menu.
 
-![](images/statistics.jpg)
+![statistics panel in Blender](images/statistics.jpg)
 
-When deleting edges, select them, press the **delete** key on your keyboard and choose **disolve edges**
+When deleting edges, select them, press the **delete** key on your keyboard and choose **dissolve edges**
 
-[<img alt="video showing how to connect script to select event" src="images/video_8_poly_count.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=0e590226-9aaa-4f09-bb8b-b47400c1b3fa)
+[<img alt="video showing how to show the stats panel in Blender" src="images/video_8_poly_count.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=0e590226-9aaa-4f09-bb8b-b47400c1b3fa)
 
 > [!WARNING]
-> Don't add new mesh primitives when in edit mode.
+> Don't add new mesh primitives when in edit mode unless you are sure you want to.
 
 ## 7. Materials
 
 We can add material to whole objects, or individual faces using by adding new materials in the **material property** area.
 
-![](images/material_properties.jpg)
+![add new material in Blender](images/material_properties.jpg)
 
-In this video I will show you how to add simple colours to your objects and faces
+You can then change the properties of the material, including the colour
 
-[<img alt="video showing how to connect script to select event" src="images/video_9_materials.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=067bebdc-2b0d-4f6f-9fc1-b47400c81f12)
+![change the colour in of the material](images/colour_properties.jpg)
+
+In this video I will show you how to add simple colours to your objects and different faces of your object:
+
+[<img alt="video showing how to add different materials to your object in Blender" src="images/video_9_materials.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=067bebdc-2b0d-4f6f-9fc1-b47400c81f12)
 
 > [!TIP]
 > Make sure you are in the correct shading mode.
-> ![](images/render_mode.jpg)
+> ![shading mode in Blender](images/render_mode.jpg)
 
 In future worksheets we will delve deeper into adding images and texture painting.
 
@@ -157,11 +198,11 @@ In future worksheets we will delve deeper into adding images and texture paintin
 
 Using the skills you have learnt in this worksheet to make a low poly space station. It can be real or fictional.
 
-Think about which primitive most closely resebles your object.
+Think about which primitive most closely resembles your object.
 
 Add colours to your space station.
 
-![](images/Death_star1.png)
+![Photo of the death star](images/Death_star1.png)
 
 Save regularly!
 
@@ -169,12 +210,12 @@ We will cover more advance modeling tools in future weeks, but here are some tip
 
 > [!TIP]
 > Select the end face of a cylinder and select **poke face** from the face menu
-> ![](images/poke_faces.jpg)
+> ![poke face in Blender](images/poke_faces.jpg)
 
 
 > [!TIP]
 > Make sure you are in the correct shading mode.
-> ![](images/loop_cut.jpg)
+> ![add loop cut in blender](images/loop_cut.jpg)
 
 ## Extra resources
 
