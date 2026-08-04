@@ -14,7 +14,7 @@ For this workshop we will use an existing model which we need to import.
 
 - Import it into a new Blender file using **File > import > gltf 2.0**
 
-![Import gltf into blender](Images/import.jpg)
+![Import gltf into blender](images/import.jpg)
 
 This video shows you how to do this if you get stuck:
 
@@ -30,27 +30,27 @@ We can now add an image texture to the cactus.
 
 - Select the **shading** workspace
 
-![shading workspace tab](Images/shading_workspace.jpg)
+![shading workspace tab](images/shading_workspace.jpg)
 
 - Create a new materials and rename it
 
-![create a new material button](Images/new_material.jpg)
+![create a new material button](images/new_material.jpg)
 
 - Create a new image texture node by selection **Add > Texture > Image Texture**
 
-![add image texture](Images/image_texture.jpg)
+![add image texture](images/image_texture.jpg)
 
 - Connect the color output of the**image texture** node to the  Base colour input of the **Principle BSDF** node 
 
-![connect colour to base colour](Images/connection.jpg)
+![connect colour to base colour](images/connection.jpg)
 
 - Press **open** on the image texture node, and select the giraffe image you downloaded earlier.
 
-![open giraffe texture](Images/Open.jpg)
+![open giraffe texture](images/Open.jpg)
 
 You should now see the giraffe texture on your cactus
 
-![Giraffe texture on cactus](Images/giraffe_texture_applied.jpg)
+![Giraffe texture on cactus](images/giraffe_texture_applied.jpg)
 
 If you get stuck, this video show you how to add the image texture.
 
