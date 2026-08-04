@@ -2,6 +2,8 @@
 
 There are a few steps you need to do to make sure your object comes through to Unity as expected
 
+At the bottom of each section is a video version of the instructions.
+
 ## Prepare your object for export
 
 ### 1. Centring and Grounding
@@ -40,21 +42,18 @@ We need to reset this to stop it returning to the original scale in Unity
 
 You should see the scale now reset to 1.
 
-Here is a video showing you how to prepare your object.
-
+You can watch a video version of this here:
 
 [<img alt="video showing how prepare a Blender model for export" src="images/video_1_prepare.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c710c1d1-6120-4d8e-b834-b49400fc1098)
 
-
-
 ## Export as fbx
 
-No we have prepared our model we can export it.
+Now we have prepared our model we can export it.
 
-You can export to different formats, but fbx is currently the best way to export for Blender.
+You can export to different formats, but fbx is currently the best way to export for Unity.
 
 - Select your model
-- Choose **File > Export > FBX
+- Choose **File > Export > FBX**
 
 ![Export FBX file in Blender](images/export.jpg)
 
@@ -86,9 +85,11 @@ I have added mine to its own folder to keep things neat.
 
 ![Assets panel in unity](images/assets.jpg)
 
-You can now drag your robot into your Unity scene or the23- Hierarcy, but it may be missing its textures.
+You can now drag your robot into your Unity scene or the Hierarcy.
 
 ## Fix textures
+
+You may see that your object is grey and all the textures are missing. This is normal, if you embeded them when you exported from Blender earlier you just need to extract them.
 
 With the robot select in the Assets panel, choose the **Materials** tab in the **Inspector**
 
