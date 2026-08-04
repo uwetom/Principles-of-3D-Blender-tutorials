@@ -1,4 +1,7 @@
 title: Blender Worksheets
-description: ""
-favicon: /favicon.ico
+favicon: favicon.ico
+include:
+  - "*.fbx"
+  - "*.blend"
+  - "*.glb"
 
