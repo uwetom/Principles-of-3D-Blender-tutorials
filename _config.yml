@@ -4,5 +4,9 @@ include:
   - "*.fbx"
   - "*.blend"
   - "*.glb"
-theme: jekyll-theme-midnight
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-remote-theme
 
+minima:
+  skin: dark
