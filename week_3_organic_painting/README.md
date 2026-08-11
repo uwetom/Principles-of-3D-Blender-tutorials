@@ -1,27 +1,32 @@
 # Organic objects and texture painting
 
-In this worksheet we will look at modeling more organic objects from an image reference, and applying more complex textures.
-
-Follow along practice using Blender by creating a  n organic object and texturing it.
+In this worksheet we will look at modeling more organic objects from an image reference and applying more complex textures.
 
 ## 1. Soft edges
 
 By default, all edges in Blender are sharp, this makes curved shapes look very faceted.
 
-![](images/facets.jpg)
+![faceted sphere](images/facets.jpg)
 
 One way to make them look more smooth is by adding more edges
 
-![](images/more_detail.jpg)
+![detailed sphere](images/more_detail.jpg)
 
 But this can increase the polygon count considerably.
 
 A better solution is to mark the edges as smooth or sharp
 
+- Create a new UV sphere primitive.
 - Hold down **Right click**
 - Choose **Shade Auto smooth**
 
+![Autoshade](images/autoshade.jpg)
+
 You can also smooth or sharpen individual edges.
+
+- In Edit mode, select and edge
+- Right click and choose **Mark sharp**
+- To clear the sharp edges, right click and choose **clear sharp**
 
 This video shows you this in more detail:
 
@@ -29,12 +34,12 @@ This video shows you this in more detail:
 
 ## 2. Randomise
 
-Organic objects are never perfect, you can make objects look more real by randomising the vertexes a little.
+Organic objects are never perfect, you can make objects look more organic by randomising the vertexes a little.
 
-- In **Edit mode** Select the vertexes
+- In **Edit mode** Select the vertexes (hotkey 1), press **a** to select them all.
 - On the top menu choose **Mesh > Transform > randomise**
 
-![randomis menu in blender](images/randomise.jpg)
+![randomise menu in blender](images/randomise.jpg)
 
 This video will show you how to do this in more detail :
 
@@ -47,6 +52,10 @@ If you want to move edges along your shape, you can double tap **g** to edge sli
 turn on the merge option to merge vertexes that are on top of each other.
 
 ![merge vertexes in blender](images/merge.jpg)
+
+- In edit mode, select a loop of edges
+- turn on merge
+- press **g** **g** to edge slide the loop and merge it with the next one.
 
 Watch this video to see this in action:
 
@@ -62,11 +71,19 @@ This video show you how to do this in practice:
 
 [<img alt="video showing how to connect script to select event" src="images/video-image_reference.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=44103c40-4722-45b5-8cea-b49800a14103)
 
+Here is the banana image I use in the video for you to download.
+
+Tip:
+Make sure the image reference is saved next to your blender file so you don't loose it.
+
+![banana image](images/banana.jpg)
+
 ## 4. Model an organic object
 
 We can now try to model a low poly Banana
 
-- Start with a new cylinder with 8 Sides.
+- Import the banana image into Blender.
+- Start with a new cylinder with 8 Vertices.
 
 ![add new cylinder](images/make_cylinder.jpg)
 
@@ -118,6 +135,9 @@ To see this in more detail, or if you get lost you can watch this video:
 
 [<img alt="video showing how to smart uv unwrap" src="images/video-automatic-unwrap.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=58c4db8f-87b1-4c9c-80af-b49800abab35)
 
+Tips:
+- You must be in edit mode to see the uv menu
+
 Next week we will go into uv unwrapping in more detail
 
 ## 6. Texture painting
@@ -128,7 +148,7 @@ Its a good idea to have a reference you can use for inspiration
 
 ![spotty banana reference image](images/Spotted_banana.jpg)
 
-- Open the texture painting workspace
+- Open the texture painting workspace at the top of your screen.
 
 ![texture painting tab](images/texture_painting_tab.jpg)
 
@@ -160,7 +180,7 @@ You can now start painting on your banana.
 
 ![choose colour box](images/choose_colour.jpg)
 
-- flood fill the image to make it all yellow
+- Flood fill the image to make it all yellow
 
 ![flood fill tool](images/flood_fill.jpg)
 
@@ -188,8 +208,10 @@ Please watch this video if you get stuck or would like to go over texture painti
 
 ## 7. Extra Challenge - Create another fruit.
 
-If you would like more practice, find image references for another fruit and try to model and   texture paint it.
+If you would like more practice, find image references for another fruit and try to model and texture paint it.
 
+![apply image](images/apple.jpg)
+[apply varieties](https://waapple.org/varieties/)
 
 
 
