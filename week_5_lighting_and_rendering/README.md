@@ -1,12 +1,12 @@
 # Rendering
 
-In this worksheet we will guide you through adding lights, controlling the camera and finally rendering you scene to a an image file.
+In this worksheet I will guide you through adding lights, controlling the camera and finally rendering you scene to a an image file.
 
 ## Import assets
 
 First you will need an object to render. I have given you a pumpkin model.
 
-You can download it here
+You can download it here:
 
 [Pumpkin glb file](assets/pumpkin.glb)
 
@@ -18,12 +18,11 @@ and choose
 
 **glTF 2.0 (.glb/.gltf)**
 
+![import Gltf file in blender](images/import_glb.jpg)
 
-![](images/import_glb.jpg)
+Here is a video showing you to do it if you get stuck:
 
-Here is a video showing you to do it:
-
-[<img alt="video showing how to connect import a Glb file" src="images/video_3_slide.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=df66ec03-7700-4826-93fe-b4940093d2b7)
+[<img alt="video showing how to connect import a Glb file" src="images/video_1-import.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=df66ec03-7700-4826-93fe-b4940093d2b7)
 
 ## Camera
 
@@ -31,9 +30,11 @@ The default scene in Blender contains a Camera
 
 ![default camera in Blender](images/default_camera.jpg)
 
-You can look through the camera using the camera button.
+-  look through the camera using the camera button.
 
-Lock the camera so that it follows you around the scene.
+The red rectangle shows you are currenly looking through the camera
+
+ - Lock the camera so that it follows you around the scene.
 
 ![look through camera button](images/look_through_camera.jpg)
 
@@ -43,19 +44,26 @@ With the camera selected, you can see its properties if you choose the camera ic
 
 The camera mimics a real video camera, so you can change the focal length, depth of field, f-stop and lots of other properties to get the result you want.
 
-![](images/camera_properties.jpg)
+![camera properties](images/camera_properties.jpg)
 
-If you cannot see any changes in your scene, make sure your viewport shading is set to **render**
+Make sure your viewport shading is set to **render**
 
-![](images/viewport_render_mode.jpg)
+![render modes](images/viewport_render_mode.jpg)
 
-Here is a video showing you how to move and change the camera properties:
+Experiment with the **Depth of Field** propery.
 
+- Turn it on
+- Change the f-stop to somthing small (1.8)
+- use the eye dropper next to the focal distance to select the pumpkin.
+
+![Depth of field property](images/depth_of_field.jpg)
+
+If you get stuck, watch this video:
 [<img alt="video showing how to connect  move and change the blender camera" src="images/video_2-camera.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=2e203323-a7ac-47a9-8ae9-b494009a6287)
 
 ## Lighting
 
-Without lighing our scene would be dark
+Without lighting our scene would be dark
 
 In a default scene Blender gives us one point light
 
@@ -88,19 +96,19 @@ You can choose from four different types
 	+ Position does not matter, only rotation
 - Spot
 	+ Like a theatre spotlight
-	+ produces a cone of light in one direction
+	+ Produces a cone of light in one direction
 	+ Angle and blend can be adjusted
 - Area
-	+ a rectangular panel of light
-	+ only shines from one side
-	+ can be scales
-	+ great for windows or openings
+	+ A rectangular panel of light
+	+ Only shines from one side
+	+ Can be scales
+	+ Great for windows or openings
 	
-Experiment with all these lights in your scene.
+- Experiment with all these lights in your scene.
 
-They can even be put inside objects.
+They can even be put inside objects, for instance, inside the pumpkin.
 
-This video shows you how to add and edit lights:
+This video shows you how to add and edit lights if you get stuck:
 
 [<img alt="video showig how to add and edit lights in Blender" src="images/video_3_lights.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=be42ad13-12b0-4b33-a03b-b494009d77c0)
 
@@ -108,18 +116,19 @@ This video shows you how to add and edit lights:
 
 Objects can give off light by giving changing their materials emission property.
 
-Create new a new uv Sphere and scale and position it behind the eye
+- Create new a new uv Sphere and scale and position it behind the eye
 
 ![add uv sphere from top menu in blender](images/uv_sphere.jpg)
 
-Create a new material called
+- Create a new material
 
-![add new material in Blender
-](images/new_material.jpg)
+![add new material in Blender](images/new_material.jpg)
 
 Change the Emission **colour** and **strength**
 
 ![emission menu on Material](images/emission_colour.jpg)
+
+Your eye should now glow.
 
 This video shows you how to add emission to materials:
 
@@ -139,9 +148,9 @@ We want to check resolution is **1920** by **1080** pixels (px).
 
 ### Render properties
 
-We can now choose our render, you can access the render properties just above the Output properties.
+We can now choose our renderer, you can access the render properties just above the output properties.
 
-![](images/render_settings.jpg)
+![render settings](images/render_settings.jpg)
 
 Blender has 2 main renders, **EEVEE** and **Cycles**
 
@@ -151,15 +160,16 @@ You can change between them from the dropdown
 
 You can use either one for this project but they are different.
 
-Eevee is very fast but it lacks some of the advanced features which allow Cycles to produce photo realistic renders.
+**Eevee** is very fast but it lacks some of the advanced features which allow **Cycles** to produce photo realistic renders.
 
 If you have a slower machine it may take a long time to render out a single cycles image.
 
-They both have many properties you can change for Viewport Rendering and final Rendering.
+They both have many properties you can change for Viewport Rendering and final Rendering.r
 
-The viewport will use the selected rendere when in **Rendered** mode
+The viewport will use the selected renderer when in **Rendered** mode.
 
-![](images/viewport_render_mode.jpg)
+![render mode](images/viewport_render_mode.jpg)
+
 ### Eevee
 
 You can experiment with all the properties, but a quick win to improve your image turn on **Raytracing**
@@ -168,7 +178,7 @@ You can experiment with all the properties, but a quick win to improve your imag
 
 ### Cycles
 
-By default, cycles will be very slow, there is always a trade off between speed and render quality, but for a simple scene there are some things you can change
+By default, cycles can be slow to render, there is always a trade off between speed and render quality, but for a simple scene there are some things you can change
 
 - Reduce the **max samples**
 - Add **Denoise**
