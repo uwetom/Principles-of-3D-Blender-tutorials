@@ -3,7 +3,7 @@
 
 ## Introduction
 
-These worksheets will walk you through the basics to get you started modeling in Blender.
+These worksheets will walk you through the basics to get you started modelling in Blender.
 
 They are  combination of text and videos, if you get stuck please ask for help. We all love making 3D content and are happy to share our knowledge.
 
@@ -206,7 +206,7 @@ Add colours to your space station.
 
 Save regularly!
 
-We will cover more advance modeling tools in future weeks, but here are some tips if you want to add more detail to your primitive shapes
+We will cover more advance modelling tools in future weeks, but here are some tips if you want to add more detail to your primitive shapes
 
 
 ### Poke Face
@@ -215,14 +215,12 @@ Select the end face of a cylinder and select **poke face** from the face menu
 ![poke face in Blender](images/poke_faces.jpg)
 
 
-### Correct shading
-Make sure you are in the correct shading mode.
+### Loop Cut
+To add more edges use the loop cut tool
 
-![add loop cut in blender](images/)i9udddddddddddddddddde
-NBBBBBBBBBBBBBBBBBB L<::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<<<<<<<<<<<<<<<<<<<<<<<<<<<<<LLLLLLLLLLLLLL%^l,,,,,,,,>
+![adding loop cut in Blender](images/loop_cut.jpg)
 
 ## Extra resources
-;;;;;;;;;;;;;;;;;;;;;;;ZZZZZZZZZZZZZZZZZZZZZZZZZZ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,,,,,,,P0-LZQá1ááááááYúH
 [Blender 5.1 Manual](https://docs.blender.org/manual/en/latest/index.html)
 
 [Blender Cheat Sheet](https://raw.githubusercontent.com/nachazo/blender-cheat-sheet/main/blender-cheat-sheet.png)

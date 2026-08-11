@@ -1,10 +1,13 @@
 # More modeling
 
-In this worksheet we will cover more advance modeling techniques and tools.
+In this worksheet we will cover more advance modelling techniques and tools.
 
-## 1. Box modeling
+## 1. Box modelling
 
-This is a common modeling technique, you start with a primitive shape which most closely resembles your object and add gradually add more detail.
+This is a common modelling technique, you start with a primitive shape which most closely resembles your object and add gradually add more detail.
+
+
+
 
 ## 2. Extrude, Edge loop, insert
 
