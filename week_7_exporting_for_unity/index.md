@@ -1,6 +1,6 @@
 # Output from Blender to Unity
 
-There are a few steps you need to do to make sure your object comes through to Unity as expected
+There are a few steps you need to do to make sure your object comes through to Unity as expected.
 
 At the bottom of each section is a video version of the instructions.
 
@@ -8,11 +8,11 @@ At the bottom of each section is a video version of the instructions.
 
 ### 1. Centring and Grounding
 
-Your object should be in the center of the scene, If not, it may be hard to find and manipulate in Unity.
+Your object should be in the centre of the scene, If not, it may be hard to find and manipulate in Unity.
 
 The base should also be on the ground
 
-- Move your object so that its centered and on the ground.
+- Move your object so that its centred and on the ground.
 
 ![robot centered in Blender](images/center.jpg)
 
@@ -22,13 +22,13 @@ The base should also be on the ground
 
 Although you can scale up objects in Unity, it is best practice to make them the correct size in Blender first to avoid creating extra work and confusion
 
-This is particularly important if you object needs to be a specific size
+This is particularly important if you object needs to be a specific size or if you are working in a team.
 
-With your object selected, open the **items menu** (shortcut n) and look at the **dimensions**
+With your object selected, open the **items menu** (shortcut n) and look at the **Dimensions**
 
 - Scale the object up until it is the correct size
 
-![](images/size.jpg)
+![dimensions of object in Blender](images/size.jpg)
 
 ### 3. Scale
 
@@ -38,7 +38,7 @@ We need to reset this to stop it returning to the original scale in Unity
 
 - Select the object, choose **Object > Apply > All Transforms** (shortcut Alt + A)
 
-![](images/apply.jpg)
+![apply transforms box](images/apply.jpg)
 
 You should see the scale now reset to 1.
 
@@ -52,7 +52,8 @@ Now we have prepared our model we can export it.
 
 You can export to different formats, but fbx is currently the best way to export for Unity.
 
-- Select your model
+- Select all the objects you want to export.
+
 - Choose **File > Export > FBX**
 
 ![Export FBX file in Blender](images/export.jpg)
@@ -69,7 +70,7 @@ You can export to different formats, but fbx is currently the best way to export
 
 ![selected object tickbox](images/selected.jpg)
 
-You can now save the file to somewhere convinient, or better still, inside the **Assets** folder in your Unity project.
+You can now save the file to somewhere convenient, or better still, inside the **Assets** folder in your Unity project.
 
 Here is video showing you how to export from Blender as an FBX file
 
@@ -85,11 +86,11 @@ I have added mine to its own folder to keep things neat.
 
 ![Assets panel in unity](images/assets.jpg)
 
-You can now drag your robot into your Unity scene or the Hierarcy.
+You can now drag your robot into your Unity scene or the hierarchy.
 
 ## Fix textures
 
-You may see that your object is grey and all the textures are missing. This is normal, if you embeded them when you exported from Blender earlier you just need to extract them.
+You may see that your object is grey and all the textures are missing. This is normal, if you embedded them when you exported from Blender earlier you just need to extract them.
 
 With the robot select in the Assets panel, choose the **Materials** tab in the **Inspector**
 
@@ -101,13 +102,13 @@ Your texture should now appear on your object.
 
 ## Final fixes
 
-Because the rendere in Blender is not the same and the renderer in Unity materials do not always import correctly, you may need to some tidying.
+Because the renderer in Blender is not the same and the renderer in Unity materials do not always import correctly, you may need to some tidying.
 
 You may need to use your experience with materials in Unity to reapply textures.
 
 For instance, my Object is missing the **Metallic Map** image textures, I need to fix the **Normal Map** and the tiling has not pulled through.
 
-I can fix these by dragging the metalic image into the metalic map box, choosing fix Now and changing the tiling number.
+I can fix these by dragging the metallic image into the metallic map box, choosing fix Now and changing the tiling number.
 
 You may have other issues so check over your imported model carefully.
 
