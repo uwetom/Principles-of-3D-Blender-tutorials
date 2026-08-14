@@ -10,5 +10,3 @@
 
 Blackboard Site
 [https://blackboard.uwe.ac.uk/](https://blackboard.uwe.ac.uk/)
-
-[Back to index](../)
