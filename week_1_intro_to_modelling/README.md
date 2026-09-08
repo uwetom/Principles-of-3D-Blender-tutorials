@@ -216,7 +216,7 @@ This video show you how to display the triangle count if
 #### Warning
 Be careful not to add new primitives when in **edit** mode unless you really need to.
 
-## 7. Materials
+## 9. Materials
 
 We can add material to whole objects, or individual faces using by adding new materials in the **material property** area.
 
@@ -241,7 +241,7 @@ Make sure you are in the correct shading mode.
 
 In future worksheets we will delve deeper into adding images and texture painting.
 
-## 8. Extra challenge - make a creature.
+## 10. Extra challenge - make a vehicle.
 
 For more practice, using the skills you have learnt in this worksheet  make a low poly vehicle. 
 
