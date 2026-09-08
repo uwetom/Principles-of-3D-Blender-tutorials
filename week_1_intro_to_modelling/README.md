@@ -50,7 +50,7 @@ Al 3D software packages shares common elements, they can be in different locatio
 - **Outliner** -  A list of all the object in your scene (Meshes, lights, cameras etc..)
 - **Properties** - View and modify information about the selected object and the whole scene
 
-### Saving
+#### Saving
 
 Remember to save you work often, it can be very frustrating to loose work in a crash.
 
