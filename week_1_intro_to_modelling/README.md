@@ -252,11 +252,9 @@ Save regularly!
 
 ![low poly van from sketchfab ](images/van.jpeg)
 
-We will cover more advance modelling tools in future weeks, but here are some tips if you want to add more detail to your primitive shapes.
-
 #### Tips:
 
-Next week we will cover tools, but you may find these useful to add more edges to your objects:
+We will cover more advance modelling tools in future weeks, but here are some tips if you want to add more detail to your primitive shapes.
 
 ### Poke Face
 Select the end face of a cylinder and select **poke face** from the face menu
