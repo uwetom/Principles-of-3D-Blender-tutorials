@@ -236,6 +236,7 @@ In this video I will show you how to add multiple materials to one object:
 
 Tip:
 Make sure you are in the correct shading mode.
+
 ![shading mode in Blender](images/render_mode.jpg)
 
 In future worksheets we will delve deeper into adding images and texture painting.
