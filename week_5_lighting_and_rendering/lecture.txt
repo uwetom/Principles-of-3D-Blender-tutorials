@@ -1,0 +1,35 @@
+blender guru lighting
+https://www.youtube.com/watch?v=ENnEYoUpFfU
+
+
+position
+falloff
+size
+colour
+
+
+- environment light - reset - 
+	world tab to strength 0
+
+- add ground/ environment
+
+create and lock camera
+
+add 2 point lights, one brighter than the other
+
+
+eye is drawn to high contrast and brightness - think about for your environment
+
+falloff - inverse square law
+
+don't use sun as local light source - no falloff.
+
+pointlight - radius does soft edges, soft shadows give less detail
+
+temperature - light type
+
+camera focal length - human eye about 50. but you can change it.
+
+
+
+
