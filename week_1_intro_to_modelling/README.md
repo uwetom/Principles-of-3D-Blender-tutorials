@@ -16,7 +16,7 @@ Learning new software takes practice so please complete the challenges in these 
 ### On Your machine
 You can download and install Blender for free for Mac, PC and Linux from here:
 
-[https://www.blender.org/download/](https://www.blender.org/download/)
+[https://www.blender.org/download/](https://www.blender.org/download/releases/5-2/)
 
 We will be using version 5.2, but as long as you have a version 5 release you will be able to follow along with these worksheets.
 
@@ -110,7 +110,7 @@ As soon as you have made a new shape an option box appears at the **bottom-left*
 - Make some new primitive shapes and move them around your scene.
 
 This video shows you how to make primitives and change their properties:
-[<img alt="video showing how to create and manipulate primitives in Blender" src="images/video_4_primitives.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=158b53eb-c292-485d-a469-b47400b092a6)
+[<img alt="video showing how to create and manipulate primitives in Blender" src="images/video_4_primatives.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=158b53eb-c292-485d-a469-b47400b092a6)
 
 Make sure you have saved your project.
 
@@ -280,5 +280,5 @@ To add more edges use the loop cut tool
 
 ## Sources
 
-[sketchfab fan](https://skfb.ly/on9ro)
+[sketchfab van](https://skfb.ly/on9ro)
 
