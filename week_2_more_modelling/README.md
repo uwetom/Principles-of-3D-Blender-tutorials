@@ -46,7 +46,7 @@ Tips:
 - When using the knife tool, **right click** to start a new cut, and press **enter** to lock in your cuts.
 - Be careful you don't add too many segments when bevelling, check your triangle count.
 
-## 4. Challenge 1 - make a crate
+## 4. Challenge 1 - Make a crate
 
 Try to make a classic crate using the tools you have learnt today, you can include cross bars.
 
@@ -128,9 +128,29 @@ Arrays are useful if you want to repeat your object in a pattern.
 * Choose the **Array** modifier
 * Change the settings to what you want
 
+This video shows you how to use the Mirror and Array modifiers
+
 [<img alt="video showing how to connect script to select event" src="images/video_4_mirror.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4dcfc841-7e67-42f7-9a65-b4740105ffb0)
 
-## 9. Join and fill
+## 9. Challenge 3 - Mirror The monkey
+
+Try out the mirror modifier 
+
+- Add a Monkey head from the Add > Mesh menu
+
+- Delete the right half of it
+	+ x-ray mode is helpful here to select all the way through the model
+	![x ray render mode button in blender](images/x-ray-mode.jpg)
+	
+- Add a mirror modifier so you have a whole monkey again
+
+- Move the vertexes on one side to see them moving on both sides.
+
+- Apply the mirror when you have finished
+
+![apply mirror menu in blender](images/apply_mirror.jpg)
+
+## 10. Join and fill
 
 When making more complex models, it can be useful to be able to fill in holes and join with other meshes.
 
@@ -139,9 +159,9 @@ Press **J** to create and edge between vertexes
 
 [<img alt="video showing how to connect script to select event" src="images/video_join_fill.jpg">](https://uwe.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ace60b28-2a3b-4300-a057-b47500f63d8c)
 
-## 10. Extra Challenge
+## 11. Extra Challenge
 
-If you have quickly made your way thought this worksheet, for some extra practice and as an extra challenge try to model a simple low poly vehicle using the techniques you have learnt.
+Last week I asked you to make a vehicle as an extra challenge, now that you know a few more techniques see if you can create a new model.
 
 ![Image of a jeep](images/jeep.png)
 
@@ -151,6 +171,10 @@ Use the following techniques
 - Insert
 - Extrude
 - Knife
+
+Name the components in the outliner and parent them appropriately.
+
+Add as much detail as you like.
 
 Here is my solution, yours will be different.
 
