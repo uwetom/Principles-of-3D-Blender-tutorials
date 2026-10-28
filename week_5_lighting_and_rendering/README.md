@@ -6,7 +6,7 @@ In this worksheet I will guide you through adding lights, controlling the camera
 
 First you will need an object to render. I have given you a pumpkin model.
 
-You can download it here:
+You can download it here ( choose download raw in top corner):
 
 [Pumpkin glb file](assets/pumpkin.glb)
 
