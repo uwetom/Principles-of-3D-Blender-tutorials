@@ -164,7 +164,7 @@ You can use either one for this project but they are different.
 
 If you have a slower machine it may take a long time to render out a single cycles image.
 
-They both have many properties you can change for Viewport Rendering and final Rendering.r
+They both have many properties you can change for Viewport Rendering and final Rendering.
 
 The viewport will use the selected renderer when in **Rendered** mode.
 
